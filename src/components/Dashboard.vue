@@ -11,8 +11,4 @@ export default{
 }
 </script>
 <style>
-.language_selector{
-font-weight: bold;
-position: relative;
-}
 </style>
