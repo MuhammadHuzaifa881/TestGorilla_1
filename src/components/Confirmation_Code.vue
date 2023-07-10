@@ -13,17 +13,17 @@
                     placeholder="Enter Code">
             </div>
             <div class="d-grid w-50">
-                <button class="btn btn-primary my-5" type="button"><a href="Confirmation_Code"
-                        class=" text-decoration-none text-reset fw-bold text-white">Next</a></button>
+                <button class="btn btn-primary text-decoration-none fw-bold my-5" @click="$router.push('/Confirmation_Password')" role="link" type="button">Next</button>
             </div>
-        </div>
+            
+        </div> 
     </main>
 </template> 
 
 
 <script>
 export default{
-    name:"ForgetScreen",
+    name:"Confirmation_Code",
 }
 
 </script> 
