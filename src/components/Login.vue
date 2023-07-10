@@ -12,16 +12,16 @@
             <div class="col-auto w-100">
                 <label for="inputPassword2" class="form-label fw-bold ">Password</label>
                 <input type="password" class="form-control shadow-lg" id="inputPassword2" placeholder="******">
-                <a href="Forgot_Password.html" class="mt-1 fw-bold "
-                    style="font-size: 75%;">Forgot Password?</a>
+                <a class="mt-1 fw-bold "
+                    style="font-size: 75%;"><router-link to="/ForgetScreen">Forgot Password?</router-link></a>
             </div>
             <div class="d-grid w-50">
-                <button class="btn btn-primary shadow my-3" type="button"><a href="index.html"
+                <button class="btn btn-primary shadow my-3" type="button"><a
                         class="text-decoration-none text-reset fw-bold">Login</a></button>
             </div>
             <div>
                 <p class=" " style="font-size: 50%; font-weight: bold;">Don't have an account?<a
-                        href="signup.html" class="ps-2 ">Sign up</a></p>
+                     class="ps-2 "><router-link to="/Register">Sign up</router-link></a></p>
             </div>
         </div>
     </main>
