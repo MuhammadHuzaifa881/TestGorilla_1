@@ -21,12 +21,12 @@
                     <input type="password" class="form-control shadow-lg" id="passwordInput" placeholder="******">
                 </div>
                 <div class="d-grid mt-3 m-auto w-50">
-                    <button class="btn btn-primary shadow-lg" type="button"><a href="index.html"
+                    <button class="btn btn-primary shadow-lg" type="button"><a
                             class="text-decoration-none text-reset fw-bold">Sign Up</a></button>
                 </div>
                 <div>
-                    <p class="mt-3" style="font-size: 75%; font-weight: bold;">Already have an account? <a href="login.html"
-                            class="ps-2">Login</a></p>
+                    <p class="mt-3" style="font-size: 75%; font-weight: bold;">Already have an account? <a
+                            class="ps-2"><router-link to="/">Login</router-link></a></p>
                 </div>
             </form>
         </div>
