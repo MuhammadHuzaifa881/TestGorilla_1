@@ -1,8 +1,9 @@
 <template>
     <main>
-        <!-- Login -->
+        <!-- Login --> 
         <div class="rounded-5 mt-3 p-5 d-flex flex-column align-items-center border border-black border-1 w-25 m-auto shadow-lg p-3 mb-5 rounded bg-dark-subtle"
             style="background-image: url(https://img.freepik.com/free-vector/beautiful-blue-watercolor-texture-background_1035-20478.jpg?size=626&ext=jpg&ga=GA1.1.162227864.1686034352&semt=ais); transform: perspective(800px) rotateX(20deg);">
+            <p class="ng-tns-c147-6 fw-bold fs-4"> We are glad to see you again.</p>
             <div><i class="fa fa-user fa-lg shadow-lg mb-1"></i></div>
             <div class="mb-3 w-100">
                 <label for="exampleFormControlInput1" class="form-label fw-bold">Email Address</label>
