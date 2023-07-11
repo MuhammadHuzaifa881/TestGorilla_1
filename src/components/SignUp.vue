@@ -26,7 +26,7 @@
                 </div>
                 <div>
                     <p class="mt-3" style="font-size: 75%; font-weight: bold;">Already have an account? <a
-                            class="ps-2"><router-link to="/">Login</router-link></a></p>
+                            class="ps-2"><router-link to="/Login">Login</router-link></a></p>
                 </div>
             </form>
         </div>
