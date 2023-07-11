@@ -28,47 +28,50 @@
           </div>
         </div>
       </nav>
-      <!-- New Header content -->
-      <!-- Logo + nav items -->
-      <header class="bg-primary nav-header w-100" style="position: fixed; top: 56px">
-        <div class="container-fluid d-flex justify-content-center bg-secondary pad-remover">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 px-5">
-            <div class="container-fluid">
-              <!-- Logo Test Gorilla -->
-              <a class="navbar-brand" href="#">
-                <img src="https://www.testgorilla.com/wp-content/uploads/2020/01/testgorilla-logo.png" style="width: 200px; height: 65px" />
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- Nav menu items -->
-              <div class="collapse navbar-collapse float-end navbar-text">
-                <ul class="navbar-nav text-center">
-                  <li class="nav-item ml-5">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item ml-5">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item ml-5">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+    <!-- New Header content -->
+<!-- Logo + nav items -->
+<header class="bg-primary nav-header w-100" style="position: fixed; top: 56px">
+    <div class="container-fluid d-flex justify-content-center bg-secondary pad-remover">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 px-5">
+        <div class="container-fluid">
+          <!-- Logo Test Gorilla -->
+          <a class="navbar-brand" href="#">
+            <img src="https://www.testgorilla.com/wp-content/uploads/2020/01/testgorilla-logo.png" style="width: 200px; height: 65px" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav menu items -->
+          <div class="collapse navbar-collapse float-end navbar-text">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item mx-5">
+                <a class="nav-link active" aria-current="page" href="#">Product Tour</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Science</a>
+              </li> 
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Test Library</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learn
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+            </ul>
+          </div>
         </div>
-      </header>
+      </nav>
+    </div>
+  </header>
     </div>
   </template>
   
